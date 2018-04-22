@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c79743988433420ca37e07c32305477d" Name="Diagram1">
+        <EntityTypeShape EntityType="ISSModel.Boli" Width="1.5" PointX="7.5" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.Cerere" Width="1.5" PointX="10.5" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.ChestionarDonare" Width="1.5" PointX="5.25" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.Donator" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.GlobuleRosii" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.Medic" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.OperatorCentru" Width="1.5" PointX="8.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.Pacient" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.Plasma" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.ProbaDeSange" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.PungaDeSange" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.Stoc" Width="1.5" PointX="10.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.Trombocite" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISSModel.Utilizator" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <AssociationConnector Association="ISSModel.FK__Boli__Id_Chestio__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__Cerere__Id_Medic__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__Cerere__Id_Opera__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__Cerere__Id_Pacie__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__Chestiona__Id_Do__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__Donator__Id_Util__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__ProbaDeSa__Id_Do__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__PungaDeSa__Id_Gl__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__Medic__Id_Utiliz__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__Pacient__Id_Medi__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__OperatorC__Id_Ut__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__Stoc__Id_Operato__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__PungaDeSa__Id_Pl__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__ProbaDeSa__Id_Pu__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.FK__PungaDeSa__Id_Tr__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="ISSModel.DonatorCentru" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
